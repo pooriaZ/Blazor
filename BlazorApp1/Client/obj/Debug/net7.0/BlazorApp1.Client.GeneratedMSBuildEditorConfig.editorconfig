@@ -9,45 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorApp1.Client
 build_property.RootNamespace = BlazorApp1.Client
-build_property.ProjectDir = C:\Users\poori\source\repos\BlazorApp1.1\BlazorApp1\Client\
+build_property.ProjectDir = C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\poori\source\repos\BlazorApp1.1\BlazorApp1\Client
+build_property.MSBuildProjectDirectory = C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/App.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Pages/Counter.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Pages/FetchData.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Pages/Index.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Shared/SurveyPrompt.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/_Imports.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Shared/MainLayout.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/ProductDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-0kyecytp8n
+
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-s8xsnq6cv2
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Shared/NavMenu.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-aw7s1uks9t
 
-[C:/Users/poori/source/repos/BlazorApp1.1/BlazorApp1/Client/Shared/ProductList.razor]
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/ProductList.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFByb2R1Y3RMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-96cbv23ok7

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dnXYgP0anY3eJqm/E0CsqGm2k4t0SbeZkMZvKjJnCfcQPvAldF3w7ibkJlQimb7mDYyL7a0TXhYM4FR5gS6wlw==",
+  "dgSpecHash": "AzpTE33zRECeBB3YDgoghN5TcHPxaaA7pc5d9iJcx0ZAXiMS7xgzx9AaqswFI8QcN9hZPiJDZHVePNl7frWeJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+  "projectFilePath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.3\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

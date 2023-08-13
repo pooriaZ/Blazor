@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\poori\\source\\repos\\BlazorApp1.1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\poori\\source\\repos\\BlazorApp1.3\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
       "projectName": "BlazorApp1.Shared",
-      "projectPath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.1\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+      "projectPath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.3\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
       "packagesPath": "C:\\Users\\poori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.1\\BlazorApp1\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.3\\BlazorApp1\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\poori\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
