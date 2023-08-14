@@ -8,6 +8,13 @@
             _http = http;
         }
         public List<Products> Products { get; set; } = new List<Products>();
+
+        public async Task<ServiceResponse<Products>> GetProduct(int productId)
+        {
+            var result = await _http.GetFromJsonAsync<ServiceResponse<Products>>($"api/product/{productId}");
+            return result;
+        }
+
         public async Task GetProducts()
         {
             var result = await _http.GetFromJsonAsync<ServiceResponse<List<Products>>>("api/product");

@@ -1,10 +1,9 @@
 ﻿@page "/product/{id:int}"
 @inject IProductService ProductService
 
-
 @if(product == null)
 {
-    <span>Loading Products...</span>
+    <span>@message</span>
 }
 else
 {
@@ -25,9 +24,19 @@ else
 
     [Parameter]
     public int Id { get; set; }
+    private string message = string.Empty;
 
     protected override async Task OnParametersSetAsync()
     {
-        product = ProductService.Products.Find(p => p.Id == Id);
+        message = "Loading Product...";
+        var result = await ProductService.GetProduct(Id);
+        if (!result.Success)
+        {
+            message = result.Message;
+        }
+        else
+        {
+            product = result.Data;
+        }
     }
 }

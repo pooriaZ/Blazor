@@ -16,6 +16,10 @@
 
 @media(max-width: 1023.98px)
 {
+    .media[b-0kyecytp8n] {
+        flex-direction: column;
+    }
+
     .media-img[b-0kyecytp8n]
     {
         max-width:300px;
@@ -191,17 +195,6 @@ main[b-s8xsnq6cv2] {
 .media-img:hover[b-96cbv23ok7] 
 {
     transform: scale(1.1);
-}
-
-.media[b-96cbv23ok7]
-{
-    display: flex;
-    align-items: flex-start;
-}
-
-.media-body[b-96cbv23ok7]
-{
-    flex: 1;
 }
 
 .media-img-wrapper[b-96cbv23ok7]
