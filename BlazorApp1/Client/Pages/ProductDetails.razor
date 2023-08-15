@@ -14,23 +14,23 @@ else
         <div class="media-body">
             <h2 class="mb-0">@product.Title</h2>
             <p>@product.Description</p>
-            <h4 class="price">$@product.Price</h4>
+            <h4 class="price">@*$@product.Price*@</h4>
         </div>
     </div>
 }
 
 @code {
     private Products? product = null;
+    private string message = string.Empty;
 
     [Parameter]
     public int Id { get; set; }
-    private string message = string.Empty;
 
     protected override async Task OnParametersSetAsync()
     {
         message = "Loading Product...";
         var result = await ProductService.GetProduct(Id);
-        if (!result.Success)
+        if (result.Success)
         {
             message = result.Message;
         }
