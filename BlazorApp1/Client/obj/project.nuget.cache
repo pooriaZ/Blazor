@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xoPnine4r06RxAJsn+ikhpdRbWGGLnLxbPE+iE1upXyhFXgYwXqUccuxGn6HCc2gOp62cgRfFKjIj5SqzBlDYw==",
+  "dgSpecHash": "sxOpLTk3BdB8Y7AkyAwm1gnQ4jPThw9x8rQBrq3JHuxU39ZE9l4NX7fRMnYAY3rNugS+/VC9FyEZo/6qKARGog==",
   "success": true,
   "projectFilePath": "C:\\Users\\poori\\source\\repos\\BlazorApp1.3\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
   "expectedPackageFiles": [
@@ -30,8 +30,7 @@
     "C:\\Users\\poori\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.3\\microsoft.jsinterop.webassembly.7.0.3.nupkg.sha512",
     "C:\\Users\\poori\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\poori\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\poori\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\poori\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.10.nupkg.sha512"
+    "C:\\Users\\poori\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

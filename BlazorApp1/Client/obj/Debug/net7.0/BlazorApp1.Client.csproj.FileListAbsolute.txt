@@ -1673,3 +1673,6 @@ C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\refi
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\BlazorApp1.Client.pdb
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\ref\BlazorApp1.Client.dll
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Pages\ProductDetails.razor.rz.scp.css
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Shared\ShopLayout.razor.rz.scp.css
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Shared\ShopNavMenu.razor.rz.scp.css
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Shared\HomeButton.razor.rz.scp.css
