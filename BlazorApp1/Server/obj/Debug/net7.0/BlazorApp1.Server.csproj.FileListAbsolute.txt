@@ -202,3 +202,5 @@ C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\obj\Debug\net7.0\refi
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.pdb
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\obj\Debug\net7.0\BlazorApp1.Server.genruntimeconfig.cache
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\obj\Debug\net7.0\ref\BlazorApp1.Server.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Server\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll

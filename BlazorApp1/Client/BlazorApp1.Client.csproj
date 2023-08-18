@@ -7,12 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Cart.razor" />
     <Content Remove="Shared\FeaturedProducts.razor" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.3" PrivateAssets="all" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.10" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
@@ -20,7 +22,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Pages\Cart.razor" />
     <None Include="Shared\FeaturedProducts.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Cart.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Cart.razor" />
   </ItemGroup>
 
 </Project>
