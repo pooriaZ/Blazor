@@ -27,14 +27,14 @@ main[b-s8xsnq6cv2] {
         text-decoration: none;
     }
 
-    .top-row[b-s8xsnq6cv2]  a:hover, .top-row[b-s8xsnq6cv2]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-s8xsnq6cv2]  a:hover, .top-row[b-s8xsnq6cv2]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-s8xsnq6cv2]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-s8xsnq6cv2]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-s8xsnq6cv2] {
@@ -68,11 +68,11 @@ main[b-s8xsnq6cv2] {
         z-index: 1;
     }
 
-    .top-row.auth[b-s8xsnq6cv2]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-s8xsnq6cv2]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-s8xsnq6cv2], article[b-s8xsnq6cv2] {
         padding-left: 2rem !important;

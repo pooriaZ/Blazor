@@ -32,6 +32,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/Register.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/CartCounter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcnRDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/Search.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,9 +52,17 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/Cart.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7b3n320mmi
+
 [C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Pages/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0kyecytp8n
+
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/FeaturedProducts.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZlYXR1cmVkUHJvZHVjdHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-64jj37v4pa
 
 [C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/HomeButton.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhvbWVCdXR0b24ucmF6b3I=
@@ -71,3 +87,7 @@ build_metadata.AdditionalFiles.CssScope = b-i3rp9kx8y5
 [C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/ShopNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNob3BOYXZNZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-felz3viqf5
+
+[C:/Users/poori/source/repos/BlazorApp1.3/BlazorApp1/Client/Shared/UserButton.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFVzZXJCdXR0b24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-xrpyd4hhtt

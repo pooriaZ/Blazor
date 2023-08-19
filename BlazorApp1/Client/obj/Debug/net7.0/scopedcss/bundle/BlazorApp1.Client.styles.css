@@ -1,44 +1,115 @@
+/* /Pages/Cart.razor.rz.scp.css */
+.container[b-7b3n320mmi] {
+    display: flex;
+    padding: 6px;
+}
+
+.image-wrapper[b-7b3n320mmi] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-7b3n320mmi] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.name[b-7b3n320mmi] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.cart-product-price[b-7b3n320mmi] {
+    font-weight: 600;
+    text-align: right;
+}
+
+.btn-delete[b-7b3n320mmi] {
+    background: none;
+    border: none;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+}
+
+    .btn-delete:hover[b-7b3n320mmi] {
+        text-decoration: underline;
+    }
+
+.input-quantity[b-7b3n320mmi] {
+    width: 70px;
+}
+
 /* /Pages/ProductDetails.razor.rz.scp.css */
-.media-img[b-0kyecytp8n]
-{
+.media-img[b-0kyecytp8n] {
     max-height: 500px;
     max-width: 500px;
     border-radius: 6px;
     margin: 0 10px 10px 10px;
 }
 
-.media-img-wrapper[b-0kyecytp8n] 
-{
+.media-img-wrapper[b-0kyecytp8n] {
     max-height: 500px;
     max-width: 500px;
     text-align: center;
 }
 
-.original-price[b-0kyecytp8n] 
-{
+.original-price[b-0kyecytp8n] {
     text-decoration: line-through;
 }
 
-@media(max-width: 1023.98px)
-{
+@media(max-width: 1023.98px) {
     .media[b-0kyecytp8n] {
         flex-direction: column;
     }
 
-    .media-img[b-0kyecytp8n]
-    {
-        max-width:300px;
+    .media-img[b-0kyecytp8n] {
+        max-width: 300px;
     }
 
-    .media-img-wrapper[b-0kyecytp8n]
-    {
+    .media-img-wrapper[b-0kyecytp8n] {
         width: 100%;
         height: auto;
     }
 }
+/* /Shared/FeaturedProducts.razor.rz.scp.css */
+.container[b-64jj37v4pa] {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+img[b-64jj37v4pa] {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 6px;
+    transition: transform 0.2s;
+    margin-bottom: 10px;
+}
+
+imp:hover[b-64jj37v4pa] {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.featured-product[b-64jj37v4pa] {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+@media (max-width: 1023.98px) {
+    .container[b-64jj37v4pa] {
+        justify-content: flex-start;
+    }
+}
+
 /* /Shared/HomeButton.razor.rz.scp.css */
-home-button[b-fiuebl9x0r] 
-{
+home-button[b-fiuebl9x0r] {
     white-space: nowrap;
     margin-right: 10px;
     transform: rotate(-5deg);
@@ -73,14 +144,14 @@ main[b-s8xsnq6cv2] {
         text-decoration: none;
     }
 
-    .top-row[b-s8xsnq6cv2]  a:hover, .top-row[b-s8xsnq6cv2]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-s8xsnq6cv2]  a:hover, .top-row[b-s8xsnq6cv2]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-s8xsnq6cv2]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-s8xsnq6cv2]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-s8xsnq6cv2] {
@@ -114,11 +185,11 @@ main[b-s8xsnq6cv2] {
         z-index: 1;
     }
 
-    .top-row.auth[b-s8xsnq6cv2]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-s8xsnq6cv2]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-s8xsnq6cv2], article[b-s8xsnq6cv2] {
         padding-left: 2rem !important;
@@ -168,15 +239,15 @@ main[b-s8xsnq6cv2] {
         line-height: 3rem;
     }
 
-.nav-item[b-aw7s1uks9t]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-aw7s1uks9t]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
 
-.nav-item[b-aw7s1uks9t]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-aw7s1uks9t]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-aw7s1uks9t] {
@@ -187,7 +258,7 @@ main[b-s8xsnq6cv2] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
-    
+
     .nav-scrollable[b-aw7s1uks9t] {
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
@@ -195,8 +266,7 @@ main[b-s8xsnq6cv2] {
     }
 }
 /* /Shared/ProductList.razor.rz.scp.css */
-.media-img[b-96cbv23ok7] 
-{
+.media-img[b-96cbv23ok7] {
     max-height: 200px;
     max-width: 200px;
     border-radius: 6px;
@@ -204,25 +274,26 @@ main[b-s8xsnq6cv2] {
     transition: transform .5s;
 }
 
-.media-img:hover[b-96cbv23ok7] 
-{
-    transform: scale(1.1);
-}
+    .media-img:hover[b-96cbv23ok7] {
+        transform: scale(1.1);
+    }
 
-.media-img-wrapper[b-96cbv23ok7]
-{
+.media-img-wrapper[b-96cbv23ok7] {
     width: 200px;
     text-align: center;
 }
 
-@media (max-width: 1023.98px)
-{
-    .media[b-96cbv23ok7]
-    {
+.page-selection[b-96cbv23ok7] {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1023.98px) {
+    .media[b-96cbv23ok7] {
         flex-direction: column;
     }
-    .media-img-wrapper[b-96cbv23ok7]
-    {
+
+    .media-img-wrapper[b-96cbv23ok7] {
         width: 100%;
         height: auto;
     }
@@ -257,14 +328,14 @@ main[b-i3rp9kx8y5] {
         text-decoration: none;
     }
 
-    .top-row[b-i3rp9kx8y5]  a:hover, .top-row[b-i3rp9kx8y5]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-i3rp9kx8y5]  a:hover, .top-row[b-i3rp9kx8y5]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-i3rp9kx8y5]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-i3rp9kx8y5]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row.auth[b-i3rp9kx8y5] {
@@ -287,11 +358,11 @@ main[b-i3rp9kx8y5] {
         z-index: 1;
     }
 
-    .top-row.auth[b-i3rp9kx8y5]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-i3rp9kx8y5]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-i3rp9kx8y5], article[b-i3rp9kx8y5] {
         padding-left: 2rem !important;
@@ -334,38 +405,58 @@ main[b-i3rp9kx8y5] {
         line-height: 3rem;
     }
 
-.nav-item[b-felz3viqf5]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-felz3viqf5]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
 
-.nav-item[b-felz3viqf5]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-felz3viqf5]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
 
 .flex-nav[b-felz3viqf5] {
     flex-direction: column;
 }
 
-    @media (min-width: 641px) {
-        .flex-nav[b-felz3viqf5] {
-            flex-direction: row;
-            display: flex;
-        }
-
-        .navbar-toggler[b-felz3viqf5], .navbar-toggler-wrapper[b-felz3viqf5] {
-            display: none;
-        }
-
-        .collapse[b-felz3viqf5] {
-            /* Never collapse the sidebar for wide screens */
-            display: block;
-        }
-
-        .nav-scrollable[b-felz3viqf5] {
-            /* Allow sidebar to scroll for tall menus */
-            height: calc(100vh - 3.5rem);
-            overflow-y: auto;
-        }
+@media (min-width: 641px) {
+    .flex-nav[b-felz3viqf5] {
+        flex-direction: row;
+        display: flex;
     }
+
+    .navbar-toggler[b-felz3viqf5], .navbar-toggler-wrapper[b-felz3viqf5] {
+        display: none;
+    }
+
+    .collapse[b-felz3viqf5] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+
+    .nav-scrollable[b-felz3viqf5] {
+        /* Allow sidebar to scroll for tall menus */
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}
+/* /Shared/UserButton.razor.rz.scp.css */
+.show-menu[b-xrpyd4hhtt]
+{
+    display: block;
+}
+
+.user-button[b-xrpyd4hhtt]
+{
+    margin-left: 0.5rem;
+}
+
+.top-row a[b-xrpyd4hhtt]
+{
+    margin-left; 0;
+}
+
+.dropdown-item:hover[b-xrpyd4hhtt]
+{
+    background-color: white;
+}

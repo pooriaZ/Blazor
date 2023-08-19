@@ -1,36 +1,30 @@
-﻿.container
-{
+﻿.container {
     display: flex;
     padding: 6px;
 }
 
-.image-wrapper
-{
+.image-wrapper {
     width: 150px;
     text-align: center;
 }
 
-.image 
-{
+.image {
     max-height: 150px;
     max-width: 150px;
     padding: 6px;
 }
 
-.name
-{
+.name {
     flex-grow: 1;
     padding: 6px;
 }
 
-.cart-product-price
-{
+.cart-product-price {
     font-weight: 600;
     text-align: right;
 }
 
-.btn-delete
-{
+.btn-delete {
     background: none;
     border: none;
     padding: 0px;
@@ -38,12 +32,11 @@
     font-size: 12px;
 }
 
-.btn-delete:hover
-{
-    text-decoration: underline;
-}
+    .btn-delete:hover {
+        text-decoration: underline;
+    }
 
-.input-quantity
-{
+.input-quantity {
     width: 70px;
 }
+

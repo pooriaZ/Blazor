@@ -1,0 +1,42 @@
+.container[b-7b3n320mmi] {
+    display: flex;
+    padding: 6px;
+}
+
+.image-wrapper[b-7b3n320mmi] {
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-7b3n320mmi] {
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+}
+
+.name[b-7b3n320mmi] {
+    flex-grow: 1;
+    padding: 6px;
+}
+
+.cart-product-price[b-7b3n320mmi] {
+    font-weight: 600;
+    text-align: right;
+}
+
+.btn-delete[b-7b3n320mmi] {
+    background: none;
+    border: none;
+    padding: 0px;
+    color: red;
+    font-size: 12px;
+}
+
+    .btn-delete:hover[b-7b3n320mmi] {
+        text-decoration: underline;
+    }
+
+.input-quantity[b-7b3n320mmi] {
+    width: 70px;
+}
+

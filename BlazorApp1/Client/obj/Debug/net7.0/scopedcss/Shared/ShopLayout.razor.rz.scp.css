@@ -27,14 +27,14 @@ main[b-i3rp9kx8y5] {
         text-decoration: none;
     }
 
-    .top-row[b-i3rp9kx8y5]  a:hover, .top-row[b-i3rp9kx8y5]  .btn-link:hover {
-        text-decoration: underline;
-    }
+        .top-row[b-i3rp9kx8y5]  a:hover, .top-row[b-i3rp9kx8y5]  .btn-link:hover {
+            text-decoration: underline;
+        }
 
-    .top-row[b-i3rp9kx8y5]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-i3rp9kx8y5]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row.auth[b-i3rp9kx8y5] {
@@ -57,11 +57,11 @@ main[b-i3rp9kx8y5] {
         z-index: 1;
     }
 
-    .top-row.auth[b-i3rp9kx8y5]  a:first-child {
-        flex: 1;
-        text-align: right;
-        width: 0;
-    }
+        .top-row.auth[b-i3rp9kx8y5]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-i3rp9kx8y5], article[b-i3rp9kx8y5] {
         padding-left: 2rem !important;

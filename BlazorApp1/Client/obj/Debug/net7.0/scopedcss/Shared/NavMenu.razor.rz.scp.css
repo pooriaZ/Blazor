@@ -40,15 +40,15 @@
         line-height: 3rem;
     }
 
-.nav-item[b-aw7s1uks9t]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-aw7s1uks9t]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
 
-.nav-item[b-aw7s1uks9t]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-aw7s1uks9t]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-aw7s1uks9t] {
@@ -59,7 +59,7 @@
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
-    
+
     .nav-scrollable[b-aw7s1uks9t] {
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);

@@ -1,5 +1,5 @@
 ﻿@inject ICartService CartService
-@inject ISyncLocalStorage LocalStorage
+@inject ISyncLocalStorageService LocalStorage
 @implements IDisposable
 
 <a href="cart" class="btn btn-info">
@@ -11,7 +11,7 @@
 {
     private int GetCartItemsCount()
     {
-        var cart = LocalStorage.GetItem<List<GetCartItemsCount>>("cart");
+        var cart = LocalStorage.GetItem<List<CartItem>>("cart");
         return cart != null ? cart.Count : 0;
     }
 

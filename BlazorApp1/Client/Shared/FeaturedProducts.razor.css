@@ -1,13 +1,11 @@
-﻿.container
-{
+﻿.container {
     display: flex;
     flex-direction: row;
     overflow-x: auto;
     justify-content: center;
 }
 
-img
-{
+img {
     max-width: 200px;
     max-height: 200px;
     border-radius: 6px;
@@ -15,13 +13,11 @@ img
     margin-bottom: 10px;
 }
 
-imp:hover
-{
+imp:hover {
     transform: scale(1.1) rotate(5deg);
 }
 
-.featured-product
-{
+.featured-product {
     margin: 10px;
     text-align: center;
     padding: 10px;
@@ -30,10 +26,9 @@ imp:hover
     max-width: 200px;
 }
 
-@media (max-width: 1023.98px)
-{
-    .container
-    {
+@media (max-width: 1023.98px) {
+    .container {
         justify-content: flex-start;
     }
 }
+
