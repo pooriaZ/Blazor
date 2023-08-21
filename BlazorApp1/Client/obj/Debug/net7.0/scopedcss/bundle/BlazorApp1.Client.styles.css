@@ -89,9 +89,9 @@ img[b-64jj37v4pa] {
     margin-bottom: 10px;
 }
 
-imp:hover[b-64jj37v4pa] {
-    transform: scale(1.1) rotate(5deg);
-}
+    img:hover[b-64jj37v4pa] {
+        transform: scale(1.1) rotate(5deg);
+    }
 
 .featured-product[b-64jj37v4pa] {
     margin: 10px;

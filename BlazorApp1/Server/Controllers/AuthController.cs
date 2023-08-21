@@ -51,7 +51,7 @@ namespace BlazorApp1.Server.Controllers
         public async Task<ActionResult<ServiceResponse<bool>>> ChangePassword([FromBody] string newPassword)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var response = await _authService.ChangePassword(int.Parse(User), newPassword);
+            var response = await _authService.ChangePassword(int.Parse(userId), newPassword);
 
             if (!response.Success) 
             {
