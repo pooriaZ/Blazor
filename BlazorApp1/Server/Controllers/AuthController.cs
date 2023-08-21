@@ -1,6 +1,8 @@
 ﻿using BlazorApp1.Server.Services.AuthService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace BlazorApp1.Server.Controllers
 {
@@ -26,6 +28,32 @@ namespace BlazorApp1.Server.Controllers
                 request.Password);
 
             if (!response.Success)
+            {
+                return BadRequest(response);
+            }
+
+            return Ok(response);
+        }
+
+        [HttpPost("login")]
+        public async Task<ActionResult<ServiceResponse<string>>> Login(UserLogin request)
+        {
+            var response = await _authService.Login(request.Email, request.Password);
+            if(!response.Success)
+            {
+                return BadRequest(response);
+            }
+            
+            return Ok(response);
+        }
+
+        [HttpPost("change-password"), Authorize]
+        public async Task<ActionResult<ServiceResponse<bool>>> ChangePassword([FromBody] string newPassword)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var response = await _authService.ChangePassword(int.Parse(User), newPassword);
+
+            if (!response.Success) 
             {
                 return BadRequest(response);
             }

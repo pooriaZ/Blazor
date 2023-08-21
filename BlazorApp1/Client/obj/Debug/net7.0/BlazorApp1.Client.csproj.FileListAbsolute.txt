@@ -1683,3 +1683,15 @@ C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\buil
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Shared\UserButton.razor.rz.scp.css
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Shared\FeaturedProducts.razor.rz.scp.css
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Pages\Cart.razor.rz.scp.css
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\build-gz\acqXHt1q.gz
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.WebUtilities.dll.gz
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Net.Http.Headers.dll.gz
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\Microsoft.Net.Http.Headers.dll
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\build-gz\b7s7Fj9u.gz
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\build-gz\BQ3Ntn42.gz
