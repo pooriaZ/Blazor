@@ -1,0 +1,29 @@
+.container[b-i2jk9br4fw]
+{
+    display: flex;
+    padding: 6px;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.image-wrapper[b-i2jk9br4fw]
+{
+    width: 150px;
+    text-align: center;
+}
+
+.image[b-i2jk9br4fw]
+{
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6 px;
+}
+
+.details[b-i2jk9br4fw]
+{
+    flex-grow: 1;
+    font-size: 1.2em;
+    text-align: right;
+}
