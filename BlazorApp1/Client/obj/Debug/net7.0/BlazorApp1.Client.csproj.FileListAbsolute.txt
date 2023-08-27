@@ -1696,3 +1696,4 @@ C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\bin\Debug\net7.0\Micr
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\build-gz\b7s7Fj9u.gz
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\build-gz\BQ3Ntn42.gz
 C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Pages\Orders.razor.rz.scp.css
+C:\Users\poori\source\repos\BlazorApp1.3\BlazorApp1\Client\obj\Debug\net7.0\scopedcss\Pages\OrderDetails.razor.rz.scp.css
